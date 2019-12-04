@@ -17,7 +17,7 @@ SwiftCore is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'SwiftCore'
+pod 'SwiftCore', :git => 'https://github.com/rnnsilveira/SwiftCore.git'
 ```
 
 ## Author
