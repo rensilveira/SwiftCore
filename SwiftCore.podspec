@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftCore'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'SwiftCore for MVVM-Coordinator.'
 
 # This description is used to generate tags and improve search results.
