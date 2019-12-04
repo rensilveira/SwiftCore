@@ -27,5 +27,7 @@ Swift MVVM - Coordinator Core Lib.
   s.source           = { :git => 'https://github.com/rnnsilveira/SwiftCore.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
-  s.source_files = 'SwiftCore/Common/**/*'
+  # s.source_files = 'SwiftCore/Common/*.{h,m,swift}'
+  s.source_files = 'SwiftCore/**/*.{swift}'
+  s.exclude_files = ["SwiftCore/Example"]
 end
