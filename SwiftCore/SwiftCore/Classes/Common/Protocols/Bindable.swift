@@ -12,11 +12,11 @@ public class Bindable<T> {
 
     // MARK: - Typealias
 
-    typealias BindType = ((T) -> Void)
+    public typealias BindType = ((T) -> Void)
 
     // MARK: - Properties
 
-    private var binds: [BindType] = []
+    public var binds: [BindType] = []
 
     /// Dynamic raw value
     public var value: T {
@@ -39,7 +39,7 @@ public class Bindable<T> {
     /// - Parameters:
     ///   - skip: boolean to decide if it should ignore ending callback from init
     ///   - bind: callback to notify changed value
-    func bind(skip: Bool = false, _ bind: @escaping BindType) {
+    public func bind(skip: Bool = false, _ bind: @escaping BindType) {
         binds.append(bind)
         if skip { return }
         bind(value)
