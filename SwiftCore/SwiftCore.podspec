@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftCore'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'SwiftCore for MVVM-Coordinator.'
 
 # This description is used to generate tags and improve search results.
@@ -27,5 +27,5 @@ Swift MVVM - Coordinator Core Lib.
   s.source           = { :git => 'https://github.com/rnnsilveira/SwiftCore.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
-  s.source_files = 'SwiftCore/Classes/**/*'
+  s.source_files = 'SwiftCore/Common/**/*'
 end
